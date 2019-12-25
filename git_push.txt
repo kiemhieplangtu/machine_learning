@@ -1,0 +1,53 @@
+git add *
+git commit -m 'Add some basic examples'
+git remote add origin git@github.com:kiemhieplangtu/kiemhieplangtu.git
+git push -u origin master
+
+
+
+
+.
+.
+.
+sudo apt-get install git
+git config --global user.name "kiemhieplangtu"
+git config --global user.email "nguyenvanhiepiop@gmail.com"
+git init Mytest # = mkdir
+cd Mytest
+
+passwd: Hoanglaota<_>ns
+
+git add README      # 1 file
+git add *           # all file + folder
+git add <folder>/*  # add folder
+
+git commit -m "some_message"
+git remote add origin https://github.com/kiemhieplangtu/dark.git
+git push -u origin master
+
+# For large files
+git lfs install
+git lfs track "*.psd"
+git add file.psd
+git commit -m "Add design file"
+git push -u origin master
+
+# Pull from Repository
+git pull
+
+
+for FILENAME in *; do mv $FILENAME Unix_$FILENAME; done 
+
+
+# Upload current codes
+Create Repo in github : <folder>
+
+At local:
+cd <folder>
+git init 
+git remote add origin https://github.com/kiemhieplangtu/ISMDust.git
+git add *
+git commit -m "MS vs LAB comparing"
+git push -u origin master
+
+Marking - week 5, Friday (11/05/2018) - 12 lab-books
